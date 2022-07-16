@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "name.nkid00.u00a7.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SharedConstantsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

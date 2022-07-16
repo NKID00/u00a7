@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "u00a7",
+    "version": "${version}",
+    "name": "u00a7",
+    "description": "Brings back the good old formatting codes.",
+    "authors": [
+        "NKID00"
+    ],
+    "contact": {
+        "sources": "https://github.com/NKID00/u00a7",
+        "issues": "https://github.com/NKID00/u00a7/issues",
+        "homepage": "https://github.com/NKID00/u00a7"
+    },
+    "license": "MPL-2.0",
+    "icon": "assets/u00a7/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "name.nkid00.u00a7.U00A7"
+        ]
+    },
+    "mixins": [
+        "u00a7.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14",
+        "minecraft": "~1.19",
+        "java": ">=17"
+    }
+}

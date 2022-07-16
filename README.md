@@ -1,4 +1,4 @@
-# u00a7
+# <img src="./src/main/resources/assets/u00a7/icon.png" alt="icon" width="32"/> u00a7
 
 Brings back the good old formatting codes.
 

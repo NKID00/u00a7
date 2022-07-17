@@ -6,7 +6,7 @@ Brings back the good old formatting codes.
 
 Simply type or copypaste your favorite formatting codes and it just works.
 
-Additionally, you can use Ctrl+& or Ctrl+7 to type section signs (§) more easily and swiftly. 
+Additionally, you can use Ctrl+& or Ctrl+7 to type formatting symbols (i.e. section signs, §) easily and swiftly. 
 
 \[WIP\] All features are toggleable in the configuration screen, which can be entered through [mod menu](https://github.com/TerraformersMC/ModMenu).
 

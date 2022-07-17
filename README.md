@@ -6,7 +6,9 @@ Brings back the good old formatting codes.
 
 Simply type or copypaste your favorite formatting codes and it just works.
 
-\[WIP\] Additionally, you may use Ctrl+& or Ctrl+7 to type section signs (§) more easily and swiftly. 
+Additionally, you can use Ctrl+& or Ctrl+7 to type section signs (§) more easily and swiftly. 
+
+\[WIP\] All features are toggleable in the configuration screen, which can be entered through [mod menu](https://github.com/TerraformersMC/ModMenu).
 
 ## Installation
 
@@ -14,7 +16,7 @@ Minecraft 1.19 and the latest Fabric Loader is required.
 
 The mod only needs to be installed on client-side.
 
-However, the server must accept packets that contains formatting codes otherwise the player will be kicked. You may either install mods or plugins that unlocks formatting codes (for example, u00a7 :P) on the server-side or use servers that ship with no builtin formatting codes bans.
+However, the server must accept packets that contains formatting codes otherwise the player will be kicked. You may either install mods or plugins that unlocks formatting codes (e.g. u00a7 :P) on the server-side or use servers that ship with no builtin formatting codes bans (e.g. any vanilla server before 1.14).
 
 ## Build
 

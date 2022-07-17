@@ -16,17 +16,17 @@ public class Options {
     public static File file;
 
     public boolean allowFormattingCodes = true;
-    public boolean enableHotKey = true;
+    public boolean enableHotKey = true; // TODO: hotkeys
 
     public static void load() {
-        U00A7.LOGGER.info("Loading options");
+        U00A7.info("Loading options");
         try (var reader = new FileReader(file)) {
             U00A7.options = U00A7.GSON.fromJson(reader, Options.class);
         } catch (IOException | JsonSyntaxException | JsonIOException e) {
-            U00A7.LOGGER.info("Generating default options");
+            U00A7.info("Generating default options");
             U00A7.options = new Options();
         }
-        U00A7.LOGGER.info("Formatting options");
+        U00A7.info("Formatting options");
         try (var writer = new FileWriter(file)) {
             U00A7.GSON.toJson(U00A7.options, writer);
         } catch (IOException | JsonIOException e) {

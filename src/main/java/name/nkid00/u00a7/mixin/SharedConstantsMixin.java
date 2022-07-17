@@ -6,6 +6,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import name.nkid00.u00a7.U00A7;
+
 import net.minecraft.SharedConstants;
 
 @Mixin(SharedConstants.class)

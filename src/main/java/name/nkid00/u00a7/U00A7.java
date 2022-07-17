@@ -25,4 +25,12 @@ public class U00A7 implements ModInitializer {
         Options.file = loader.getConfigDir().resolve("u00a7.json").toFile();
         Options.load();
     }
+
+    public static void info(String arg0) {
+        LOGGER.info("[u00a7] " + arg0);
+    }
+
+    public static void info(String arg0, Object... arg1) {
+        LOGGER.info("[u00a7] " + arg0, arg1);
+    }
 }

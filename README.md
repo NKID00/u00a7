@@ -24,7 +24,7 @@ Additionally, you can use **Ctrl+&** or **Ctrl+7** to type formatting symbols (i
 
 The mod needs to be installed on client-side.
 
-In multiplayer, the server must accept packets that contains formatting codes otherwise the player will be kicked. Signs with formatting codes also needs particular server-side support. You may either install mods or plugins that unlocks formatting codes (e.g. u00a7 :P) on the server-side or use servers that ship with no builtin formatting codes bans (e.g. any vanilla server before 1.14).
+In multiplayer, the server must accept packets that contains formatting codes otherwise the player will be kicked. Signs with formatting codes also need particular server-side support. You may either install mods or plugins that unlocks formatting codes (e.g. u00a7 :P) on the server-side or use servers that ship with no builtin formatting codes bans (e.g. any vanilla server before 1.14).
 
 ## Build
 

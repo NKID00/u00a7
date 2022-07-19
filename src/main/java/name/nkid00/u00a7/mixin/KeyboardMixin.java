@@ -8,6 +8,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import name.nkid00.u00a7.U00A7;
+
 import net.minecraft.client.Keyboard;
 
 @Mixin(Keyboard.class)
@@ -27,7 +28,7 @@ public class KeyboardMixin {
     }
 
     @Shadow
-    public void onChar(long window, int codePoint, int modifiers) {
+    private void onChar(long window, int codePoint, int modifiers) {
         throw new AssertionError();
     }
 

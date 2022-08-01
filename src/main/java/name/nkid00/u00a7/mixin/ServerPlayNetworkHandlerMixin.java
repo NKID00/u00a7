@@ -29,7 +29,7 @@ public class ServerPlayNetworkHandlerMixin {
 
     @Inject(method = "onUpdateSign(Lnet/minecraft/network/packet/c2s/play/UpdateSignC2SPacket;)V", at = @At("HEAD"), cancellable = true)
     private void onUpdateSign(UpdateSignC2SPacket packet, CallbackInfo info) {
-        if (U00A7.options.allowFormattingCodesOnSign) {
+        if (U00A7.options.allowFormattingCodes && U00A7.options.allowFormattingCodesOnSign) {
             List<String> list = List.of(packet.getText());
             filterTexts(list).thenAcceptAsync(texts -> this.onSignUpdate(packet, (List<FilteredMessage>) texts),
                     (Executor) this.server);

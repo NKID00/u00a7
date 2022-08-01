@@ -15,11 +15,9 @@ import net.minecraft.util.crash.CrashReport;
 public class Options {
     public static File file;
 
-    // Allowing Players to type formatting codes on many occassions.
     public boolean allowFormattingCodes = true;
-    // Disable remoing formatting codes when updating sign(s).
-    public boolean allowFormattingCodesOnSign = true;
-    public boolean enableHotKey = true; // TODO: hotkeys
+    public boolean allowFormattingCodesOnSigns = true;
+    public boolean enableHotKey = true;
 
     public static void load() {
         U00A7.info("Loading options");

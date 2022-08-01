@@ -17,7 +17,7 @@ public class Options {
 
     // Allowing Players to type formatting codes on many occassions.
     public boolean allowFormattingCodes = true;
-    // Disable Sign Update, which will remove formatting codes when confirming input.
+    // Disable remoing formatting codes when updating sign(s).
     public boolean allowFormattingCodesOnSign = true;
     public boolean enableHotKey = true; // TODO: hotkeys
 

@@ -18,7 +18,7 @@ Additionally, you can use **Ctrl+&** or **Ctrl+7** to type formatting symbols (i
 
 ## Installation
 
-**Minecraft 1.19.1 and the latest Fabric Loader is required.**
+**Minecraft 1.17-1.19.1 and the latest Fabric Loader is required.**
 
 **Support for other versions is still work in progress.**
 

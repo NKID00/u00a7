@@ -27,7 +27,7 @@ public class ServerPlayNetworkHandlerMixin {
     @Shadow
     public ServerPlayerEntity player;
 
-    @SuppressWarnings("rawtypes")
+    // @SuppressWarnings("rawtypes")
     @Inject(method = "onUpdateSign(Lnet/minecraft/network/packet/c2s/play/UpdateSignC2SPacket;)V", at = @At("HEAD"), cancellable = true)
     private void onUpdateSign(UpdateSignC2SPacket packet, CallbackInfo info) {
         if (U00A7.options.allowFormattingCodes && U00A7.options.allowFormattingCodesOnSigns) {
@@ -38,13 +38,13 @@ public class ServerPlayNetworkHandlerMixin {
         }
     }
 
-    @SuppressWarnings("rawtypes")
+    // @SuppressWarnings("rawtypes")
     @Shadow
     private CompletableFuture<List<FilteredMessage>> filterTexts(List<String> texts) {
         throw new AssertionError();
     }
 
-    @SuppressWarnings("rawtypes")
+    // @SuppressWarnings("rawtypes")
     @Shadow
     private void onSignUpdate(UpdateSignC2SPacket packet, List<FilteredMessage> signText) {
         throw new AssertionError();
